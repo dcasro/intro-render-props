@@ -1,0 +1,47 @@
+#app {
+  display: flex;
+  height: 100vh;
+  flex: 1 1;
+}
+
+.fc {
+  display: flex;
+  flex: 1 1;
+}
+
+
+
+.landing-page {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+
+  &__examples {
+    margin-right: 20px;
+  }
+}
+
+.examples-page {
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-tree {
+  margin-top: 200px;
+  font-size: 16px;
+  border-radius: .25rem;
+  padding: .375rem .75rem;
+  border: 1px solid transparent;
+  color: white;
+  border-color: #6c757d;
+  background-color: #6c757d;
+}
+
+.content {
+  width: 275px;
+  margin-top: 20px;
+  border: black solid 1px;
+  padding: 20px;
+  box-shadow: 0px 0px 6px;
+}
